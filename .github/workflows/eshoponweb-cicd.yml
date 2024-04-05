@@ -5,11 +5,11 @@ on: [push, workflow_dispatch]
 
 #Environment variables https://docs.github.com/en/actions/learn-github-actions/environment-variables
 env:
-  RESOURCE-GROUP: rg-smolda-eshoponweb
+  RESOURCE-GROUP: rg-smolda-test
   LOCATION: westeurope
   TEMPLATE-FILE: infra/webapp.bicep
   SUBSCRIPTION-ID: 6fbef44f-99d6-4739-bfb7-317123ecc557
-  WEBAPP-NAME: eshoponweb-webapp-smolda
+  WEBAPP-NAME: webapp-smolda
 
 
 jobs:
